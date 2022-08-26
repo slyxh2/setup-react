@@ -44,7 +44,7 @@ async function creatApp(name) {
 
 async function run(root, name, originalDirectory) {
     let scriptName = 'react-scripts';
-    let templateName = 'cra-template-redux'; //模板名字在这！！！
+    let templateName = 'pak-template'; //模板名字在这！！！
     const allDependencies = ['react', 'react-dom', scriptName, templateName];
     console.log('Installing packages. This might take a couple of minutes');
     console.log(
