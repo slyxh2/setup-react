@@ -14,6 +14,6 @@
     "fs-extra": "^10.1.0"
   },
   "scripts": {
-    "create-react-app": "node ./packages/create-react-app"
+    "set-react-app": "node ./packages/create-react-app"
   }
 }

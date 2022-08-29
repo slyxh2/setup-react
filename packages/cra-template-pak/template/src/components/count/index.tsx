@@ -1,6 +1,8 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { CombinedState } from '../../store/reducers/index';
 import { addNum, minusNum, addNumAsync } from '../../store/actioins/count';
+import Button from '@mui/material/Button';
+import './index.css';
 type CountState = {
     count: number
 }
@@ -11,13 +13,15 @@ const Count = () => {
     const useAppDispatch: () => Function = useDispatch;
     let dispatchThunk = useAppDispatch();
     return (
-        <>
-            <h1>count</h1>
-            <h2>{count}</h2>
-            <button onClick={() => { dispatch(addNum()) }}>add</button>
-            <button onClick={() => { dispatch(minusNum()) }}>minus</button>
-            <button onClick={() => { dispatchThunk(addNumAsync()) }}>addAsync</button>
-        </>
+        <div className='count'>
+            <h1>{count}</h1>
+            <main>
+                <Button variant="contained" onClick={() => { dispatch(addNum()) }}>add</Button>
+                <Button variant="contained" onClick={() => { dispatch(minusNum()) }}>minus</Button>
+                <Button variant="contained" onClick={() => { dispatchThunk(addNumAsync()) }}>addAsync</Button>
+            </main>
+
+        </div>
     )
 };
 

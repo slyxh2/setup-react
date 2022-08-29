@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.count {
+    width: 70%;
+    padding: 5%;
+}
+
+h1 {
+    text-align: center;
+}

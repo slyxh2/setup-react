@@ -1,6 +1,6 @@
 {
   "name": "pak-template",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "keywords": [
     "react",
     "create-react-app",
@@ -10,7 +10,7 @@
   "description": "The base TypeScript template for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/slyxh2/setup-react",
     "directory": "packages/cra-template-typescript"
   },
   "license": "MIT",
@@ -18,7 +18,7 @@
     "node": ">=14"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/slyxh2/setup-react/issues"
   },
   "files": [
     "template",
