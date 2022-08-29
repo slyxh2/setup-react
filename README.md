@@ -20,3 +20,46 @@ npx create-react-app my-app --template cra-template-patrick
 ```
 
 ## cra-template-patrick
+
+The template was intergated with **Redux, React-Router V6, Material UI, Redux-logger, Redux-promise, Redux-thunk**.
+The file arrangment was also clear and logical as shown below:
+```
+cra-template-pak
+├─.DS_Store
+├─README.md
+├─package.json
+├─template.json
+├─template
+|    ├─README.md
+|    ├─gitignore
+|    ├─src
+|    |  ├─types
+|    |  |   └index.tsx
+|    |  ├─store
+|    |  |   ├─index.tsx
+|    |  |   ├─reducers
+|    |  |   |    ├─count.tsx
+|    |  |   |    └index.tsx
+|    |  |   ├─actioins
+|    |  |   |    └count.tsx
+|    |  ├─router
+|    |  |   └index.tsx
+|    |  ├─pages
+|    |  |   ├─show
+|    |  |   |  └index.tsx
+|    |  |   ├─home
+|    |  |   |  ├─.DS_Store
+|    |  |   |  ├─index.css
+|    |  |   |  ├─index.tsx
+|    |  |   |  └react.png
+|    |  ├─components
+|    |  |     ├─count
+|    |  |     |   ├─index.css
+|    |  |     |   └index.tsx
+|    |  |     ├─avatar
+|    |  |     |   ├─index.css
+|    |  |     |   └index.tsx
+|    ├─public
+|    |   ├─index.html
+
+```
